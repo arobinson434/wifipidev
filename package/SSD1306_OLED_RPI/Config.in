@@ -1,0 +1,9 @@
+config BR2_PACKAGE_SSD1306_OLED_RPI
+	bool "SSD1306_OLED_RPI"
+	depends on BR2_arm
+	select BR2_PACKAGE_BCM2835
+	help
+	  Library to support the I2C 128x64 OLED Display Module
+	  driven by the SSD1306 controller for the Raspberry Pi.
+
+	  https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI

@@ -1,0 +1,3 @@
+*.swp
+*.swo
+board/rootfs_overlay/var/lib/iwd/

@@ -1,0 +1,11 @@
+config BR2_PACKAGE_I2C_IPSTAT
+	bool "i2c_ipstat"
+	depends on BR2_arm
+	select BR2_PACKAGE_BCM2835
+	select BR2_PACKAGE_SSD1306_OLED_RPI
+	help
+	  Application to grab the system's IP and display it on
+	  an OLED display driven by the SSD1306 controller on a
+	  Raspberry Pi.
+
+	  https://github.com/arobinson434/i2c_ipstat

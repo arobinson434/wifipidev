@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_WiFiPiDev_PATH/package/SSD1306_OLED_RPI/Config.in"
+source "$BR2_EXTERNAL_WiFiPiDev_PATH/package/i2c_ipstat/Config.in"
